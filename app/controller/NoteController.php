@@ -25,7 +25,7 @@ class NoteController {
 
     public function getTable(){
 
-        $sessionData = get_session("connexion");
+        $sessionData = Session::get("connexion");
         if(!$sessionData){
             header("Location:http://localhost:8000/login");
             exit;
