@@ -1,6 +1,6 @@
 <?php
 require_once dirname(__DIR__) . "/core/Database.php";
-require_once dirname(__DIR__) . "/ENTITES/Utilisateur.php";
+require_once dirname(__DIR__) . "/entites/Utilisateur.php";
 class UtilisateurModel {
     private Database $db;
 

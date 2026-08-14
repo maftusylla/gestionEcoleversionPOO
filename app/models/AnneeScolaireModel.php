@@ -1,6 +1,6 @@
 <?php
 require_once dirname(__DIR__) . "/core/Database.php";
-require_once dirname(__DIR__) . "/ENTITES/AnneeScolaire.php";
+require_once dirname(__DIR__) . "/entites/AnneeScolaire.php";
 class MatiereModel {
     private Database $db;
 
